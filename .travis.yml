@@ -5,6 +5,7 @@ script: bash ./deploy.sh
 branches:
   only:
   - master
+  - hotfix/ads
 
 git:
   depth: 9999999
